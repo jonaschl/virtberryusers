@@ -86,7 +86,7 @@ def set_user_attributes(userid ,attr, value):
                 new.setdefault(attr, value)
                 print(new)
                 user.update(new)
-                with open("/etc/virtberry/config.json","w") as file:
+                with open(PathToUsersConfigFile,"w") as file:
                     json.dump(data, file, indent=4)
 
 def get_user_attributes(userid ,attr):
