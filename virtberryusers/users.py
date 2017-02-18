@@ -114,10 +114,3 @@ def check_password(hash, password):
         return True
     else:
         return False
-
-
-DerUser = User("admin")
-
-
-print(DerUser.check_permissions_read("users"))
-print(DerUser.check_permissions_write("users"))
