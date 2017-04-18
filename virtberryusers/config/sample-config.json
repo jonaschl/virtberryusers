@@ -1,0 +1,20 @@
+{
+  "name": "virtberryusers",
+  "DisplayName": "user managment",
+  "license": "AGPLV3",
+  "status": "enabled",
+  "PermissionGroup": "users",
+  "blueprints": [
+    "user_settings"
+    ],
+    "menu": [
+    {
+      "displayname": "Your Settings",
+      "absolute_url": "/preferences/your-settings",
+      "type": "normal",
+      "index": "your-settings",
+      "parent": [
+	"preferences"]
+    }
+  ]
+}

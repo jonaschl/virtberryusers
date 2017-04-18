@@ -1,0 +1,3 @@
+include virtberryusers/static/*
+include virtberryusers/templates/*
+include virtberryusers/config/sample-config.json

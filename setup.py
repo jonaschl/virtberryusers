@@ -8,5 +8,6 @@ setup(name='virtberryusers',
 	author='Jonatan Schlag',
 	author_email='flyingcircus@example.com',
 	license='AGPLv3',
+	include_package_data = True,
 	packages=['virtberryusers'],
 	zip_safe=False)
